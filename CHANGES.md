@@ -8,6 +8,9 @@ Changes in CUPS v2.5b1 (TBA)
 - Added `cupsConcatString` and `cupsCopyString` string APIs.
 - Added new API for form, JSON, JWT, IPP, raster
 - Added OpenSSL support for `cupsHashData` (Issue #762)
+- Added PPD option preset auto-generation: For all 6 combinations of
+  print-color-mode and print-quality and also for the 5 settings of
+  print-content-optimize presets are auto-generated.
 - Building with TLS support is now required - CUPS supports OpenSSL, GNUTLS
   and LibreSSL
 - Updated `cupsArray` APIs.

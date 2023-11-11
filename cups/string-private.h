@@ -129,6 +129,7 @@ extern ssize_t	_cups_safe_vsnprintf(char *buffer, size_t bufsize, const char *fo
 extern void	_cups_strcpy(char *dst, const char *src) _CUPS_PRIVATE;
 extern int	_cups_strcasecmp(const char *, const char *) _CUPS_PRIVATE;
 extern int	_cups_strncasecmp(const char *, const char *, size_t n) _CUPS_PRIVATE;
+extern char	*_cups_strcasestr(const char *, const char *) _CUPS_PRIVATE;
 extern char	*_cupsStrAlloc(const char *s) _CUPS_PRIVATE;
 extern char	*_cupsStrDate(char *buf, size_t bufsize, time_t timeval) _CUPS_PRIVATE;
 extern void	_cupsStrFlush(void) _CUPS_PRIVATE;
